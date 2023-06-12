@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="https://kit.fontawesome.com/12b42156ae.js" crossorigin="anonymous"></script>
+    <title>LearnTech</title>
+    <header>
+        <div class="esquerda">
+            <img class="wifi" src="./images/wifi_Icon.png">
+            <p class="txt_header">LearnTech</p>
+        </div>
+    </header>
+</head>
+<body>
+    <div id="form">
+        <form action="">
+            <h2>Cadastrar</h2>
+            <label for="username">Nome</label>
+            <div class="input">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <input id="username" name="username" placeholder="Nome" type="text">
+            </div>
+            <label for="email">Email</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input id="useremail" name="useremail" placeholder="Email" type="text">
+            </div>
+            <label for="senha">Senha</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="password" name="password" placeholder="Senha" type="password">
+            </div>
+            <div id="btn">
+              <button type="submit" onclick="window.location.href ='http://127.0.0.1:5500/LearnTech-main/login.html?useremail=&password='">Cadastrar</button>
+           </div>
+        </form>
+    </div>
+</body>
+</html>
